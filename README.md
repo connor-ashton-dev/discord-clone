@@ -3,15 +3,14 @@
 ## Key Features:
 
 - Real-time messaging using Socket.io
-- Send attachments as messages using UploadThing
-- Delete & Edit messages in real time for all users
-- Create Text, Audio and Video call Channels
-- video calls between members
+- File uploads using UploadThing
+- Servers and channels for different chats
+- Video and Audio calls between members
 - Member management (Kick, Role change Guest / Moderator)
-- Unique invite link generation & full working invite system
-- Infinite loading for messages in batches of 10 (@tanstack/query)
+- Unique invite links
+- Infinite message loading (@tanstack/query)
 - UI using TailwindCSS and ShadcnUI
-- Full responsivity and mobile UI
+- Mobile responsive
 - Light / Dark mode
 - Websocket fallback: Polling with alerts
 - ORM using Prisma
